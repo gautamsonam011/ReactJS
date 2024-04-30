@@ -1,0 +1,121 @@
+/* App.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .app-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    padding: 8px;
+    width: 200px;
+  }
+  
+  .category-button,
+  .brand-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    display: flex;
+  }
+  
+  .food-categories {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 2px;
+  }
+  
+  .food-category img {
+    width: 20%;
+    border-radius: 5px;
+  }
+  
+  .food-category h3 {
+    margin: 10px 0;
+  }
+  
+  .food-category button {
+    padding: 8px 8px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cart-section {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    height: 200px;
+  }
+  
+  .cart-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .cart-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .cart-item {
+    flex: 0 0 calc(50% - 10px);
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-item img {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .billing {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .billing h3 {
+    font-weight: bold;
+  }
+  
+  .billing button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
